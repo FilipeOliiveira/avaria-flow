@@ -88,10 +88,8 @@ const RegisterDamage = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="eletronicos">Eletrônicos</SelectItem>
-                  <SelectItem value="roupas">Roupas</SelectItem>
-                  <SelectItem value="casa">Casa e Jardim</SelectItem>
-                  <SelectItem value="esportes">Esportes</SelectItem>
-                  <SelectItem value="outros">Outros</SelectItem>
+                  <SelectItem value="eletrodomesticos">Eletrodomesticos</SelectItem>
+                  <SelectItem value="moveis">Móveis</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -127,23 +125,6 @@ const RegisterDamage = () => {
                 <span>50%</span>
               </div>
             </div>
-
-            {/* Linked Product */}
-            <div className="space-y-2">
-              <Label htmlFor="linkedProduct">Produto Vinculado</Label>
-              <div className="flex gap-2">
-                <Input
-                  id="linkedProduct"
-                  placeholder="Código do produto normal relacionado"
-                  value={formData.linkedProduct}
-                  onChange={(e) => setFormData({ ...formData, linkedProduct: e.target.value })}
-                />
-                <Button type="button" variant="outline" size="icon">
-                  <Link className="h-4 w-4" />
-                </Button>
-              </div>
-            </div>
-
             {/* Submit Button */}
             <div className="pt-4">
               <Button type="submit" className="bg-accent hover:bg-accent-hover text-accent-foreground">

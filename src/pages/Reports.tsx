@@ -120,10 +120,8 @@ const Reports = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="eletronicos">Eletrônicos</SelectItem>
-                  <SelectItem value="roupas">Roupas</SelectItem>
-                  <SelectItem value="casa">Casa e Jardim</SelectItem>
-                  <SelectItem value="esportes">Esportes</SelectItem>
-                  <SelectItem value="outros">Outros</SelectItem>
+                  <SelectItem value="eletrodomesticos">Eletrodomesticos</SelectItem>
+                  <SelectItem value="moveis">Móveis</SelectItem>
                 </SelectContent>
               </Select>
             </div>
